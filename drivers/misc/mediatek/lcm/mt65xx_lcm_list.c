@@ -801,6 +801,10 @@ struct LCM_DRIVER *lcm_driver_list[] = {
 	&it6121_g156xw01v1_lvds_vdo_lcm_drv,
 #endif
 
+#if defined(ILI9881_HD720_DSI_VDO_YASSYCMI)
+	&ili9881_hd720_dsi_vdo_yassycmi_lcm_drv,
+#endif
+
 #if defined(ILI9806C_DSI_VDO_DJN_FWVGA)
 	&ili9806c_dsi_vdo_djn_fwvga_lcm_drv,
 #endif
